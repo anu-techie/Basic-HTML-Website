@@ -13,4 +13,4 @@ Live Demo: 👉 [View the live project here](https://anu-techie.github.io/Basic-
 
 ## Technologies Used
   - HTML
-Project Page URL : https://roadmap.sh/projects/Basic-HTML-Website/
+Project Page URL : https://roadmap.sh/projects/basic-html-website
