@@ -1,97 +1,124 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Website</title>
-    <!-- SEO -->
-     <meta name="description" content="creating simple portfolio with HTML only website with multiple webpages">
-     <meta name="keywords" content="Basic HTML website, portfolio, website with multiple pages, Front-End projects, roadmap.sh">
-     <meta name="author" content="Anusuyadevi">
-
-    <!-- OG -->
-     <meta property="og:title" content="Simple portfolio using HTML">
-     <meta property="og:description" content="creating simple portfolio with HTML only website with multiple webpages">
-     <meta property="og:url" content="https://roadmap.sh/u/anusuyadevib">
-     <meta property="og:image" content="images/portfolio.jpg">
-     <meta property="og:type" content="website">
-
+    <title>Basic Html Website | Home</title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <!-- Seo Meta tags -->
+    <meta name="description" content="Basic HTML website - Portfolio structure  with multipages including the feature of Seo and social media sharing">
+    <meta name = "Author" content="Anusuyadevi">
+    <meta name="Keywords" content="Basic HTML Website, HTML only Portfolio, HTML structure with multipages ">
+     <!-- OG Tags -->
+    <meta property="og:title" content="Basic HTML Website">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Basic HTML website - Portfolio structure  with multipages including the feature of Seo and social media sharing">
+    <meta property="og:image" content="https://anu-techie.github.io/Basic-HTML-Website/images/web.jpg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:url" content="https://anu-techie.github.io/Basic-HTML-Website/">
+    <!-- Type Schema -->
+    <script type="application/ld+json">
+    {   
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Anusuyadevi B",
+            "jobTitle": "Full Stack Developer",
+            "email": "mailto:anusuyadevi1121@gmail.com",
+            "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Bharathiar University"
+            },
+            "knowsAbout": [
+            "HTML", "CSS", "JavaScript",
+            "Python", "Django", "MySQL",
+            "REST API", "Responsive Design"
+            ],
+            "makesOffer": {
+            "@type": "Service",
+            "name": "Website Development",
+            "description": "I build modern business websites with SEO."
+            }
+        }
+    }
+    </script>
 </head>
 <body>
     <header>
-        <h1>Anu</h1>
+        <h1>Anusuyadevi B</h1>
         <nav>
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="/articles.html">Article</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Front-End Developer</h2>
+    <section class="hero">
+        <h2>Full Stack Developer</h2>
+        <p>Front-end: HTML,CSS, Javascript | Back-end: Python, RDBMS, Rest API</p>
+    </section>
+    <main class="content">
+        <section class="projects">
+            <h3>Projects</h3>
+            <ul>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Task Tracker</a></li>
+                <li><a href="#">Github User activity</a></li>
+                <li><a href="#">Landing Page</a></li>
+            </ul>
         </section>
-        <section>
-            <section>
-                <h3>Projects</h3>
-                <ul>
-                    <li>HTML only portfolio</li>
-                    <li>Calculator</li>
-                    <li>Quiz App</li>
-                    <li>Countdown Timer</li>
-                    <li>Product Upcoming Page</li>
-                </ul>
-            </section>
-            <section>
-                <article>
-                    <h3>Work Experience</h3>
-                    <p>roadmap.sh</p>
-                    <p>Solved all the Front-End projects</p>
-                    <a href="https://roadmap.sh/u/anusuyadevib">Visit my profile</a>
-                </article>
-                <article>
-                    <h3>Open source Work</h3>
-                    <p>Contribute to 50 open source projects with 200 Github stars</p>
-                    <a href="https://github.com/anu-techie">Visit my github profile</a>
-                </article>
-            </section>
-            <aside>
-                <h3>Education</h3>
-                <p>Graduated with 6.7 out of 10 in computer science</p>
-                <p>Courses I tooK:</p>
-                <ul>
-                    <li>Object Oriented Programming</li>
-                    <li>Data Structures and algorithms</li>
-                    <li>Web Engineering</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Database Management System</li>
-                </ul>
-            </aside>
-        </section>
-        <section>
-            <h3>Review from my teachers</h3>
+        <section class="experience">
+            <h3>Experience</h3>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>John doe</p>
-                <p>Assistant Professor</p>
+                <h4>roadmap.sh</h4>
+                <p>Solved all Front-end and Back-end Projects</p>
+                <a href="https://roadmap.sh/u/anusuyadevib">Visit my profile</a>
             </article>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>John doe</p>
-                <p>Assistant Professor</p>
-            </article>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>John doe</p>
-                <p>Assistant Professor</p>
+                <h4>Open source work</h4>
+                <p>Contributed to 50 opensource projects.</p>
+                <a href="https://github.com/anu-techie">Visit my Github Profile</a>
             </article>
         </section>
-    </main>
+        <section class="education">
+            <h3>Education</h3>
+            <p>Graduated in BSc Computer Science</p>
+            <p>Courses I took :</p>
+            <ul>
+                <li>OOPs Concept</li>
+                <li>DSA</li>
+                <li>Network Application</li>
+                <li>Webdesign</li>
+                <li>Web development</li>
+            </ul>
+        </section>
+    </main>    
+    <section class="review">
+        <h3>Review from my teachers</h3>
+        <article>
+            <blockquote>Delivered our website ahead of schedule with clean code and a responsive design. Highly impressed!</blockquote>
+            <p>R N Kumaar<br>
+            <span>CCL, founder</span></p>
+        </article>
+        <article>
+            <blockquote>She understood our requirements perfectly and built a dashboard that exceeded our expectations.</blockquote>
+            <p>Bhuvana<br>
+            <span>Library officer</span></p>
+        </article>
+        <article>
+            <blockquote>Very professional and supportive throughout the project. Will definitely work with her again!</blockquote>
+            <p>Edwin<br>
+            <span>Aali designs, founder</span></p>
+        </article>
+    </section>
     <footer>
-        <p>&copy; all rights reserved 2025</p>
+        <p>&copy; All right reserved 2025</p>
     </footer>
 </body>
 </html>
